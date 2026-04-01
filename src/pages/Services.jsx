@@ -19,16 +19,19 @@ const Services = () => {
               <Video size={40} />
             </div>
             <h2>Original Music Videos</h2>
-            <div className="price-tag">Starting from $1,500</div>
+            <div className="price-tag" style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+              <span style={{ fontSize: '1.2rem', color: 'var(--text-primary)' }}>Complete Music & Video Production</span>
+              <span>Starting from RS 20 000</span>
+            </div>
             <p className="package-desc">
-              Full-scale cinematic music video production, from storyboard to final color grade. We capture the essence of your song.
+              An all-in-one production package for artists. We bring your vision to life from scratch—composing the original melody, recording studio-quality audio, and producing a high-end cinematic music video.
             </p>
             <ul className="package-features">
-              <li>Concept Development</li>
-              <li>4K Cinematic Filming</li>
-              <li>Professional Lighting</li>
+              <li>Original Melody & Music Composition</li>
+              <li>Studio Audio Recording & Mixing</li>
+              <li>Concept & Storyboard Development</li>
+              <li>4K Cinematic Filming & Lighting</li>
               <li>Advanced Editing & Color Grading</li>
-              <li>Multi-location options</li>
             </ul>
             <a href="/booking" className="btn btn-primary package-btn">Book Now</a>
           </div>
@@ -38,16 +41,16 @@ const Services = () => {
               <Music size={40} />
             </div>
             <h2>Cover Music Videos</h2>
-            <div className="price-tag">Starting from $800</div>
+            <div className="price-tag">Starting from Rs. 10,000</div>
             <p className="package-desc">
-              High-quality studio recordings and dynamic performance videos for your cover songs. Perfect for YouTube and social media growth.
+              High-quality studio audio recording and dynamic video production for your cover songs. Perfect for artists looking to grow their YouTube and social media presence.
             </p>
             <ul className="package-features">
-              <li>Studio Audio Recording</li>
-              <li>Vocal Tuning & Mixing</li>
-              <li>Multi-camera Video Setup</li>
-              <li>Sync & Edit</li>
-              <li>Format delivery for all platforms</li>
+              <li>Professional Vocal Recording & Tuning</li>
+              <li>High-Quality Mixing & Mastering</li>
+              <li>Multi-Camera Studio Video Setup</li>
+              <li>Seamless Audio & Video Syncing</li>
+              <li>Optimized Formats for YouTube & Social Media</li>
             </ul>
             <a href="/booking" className="btn btn-primary package-btn">Book Now</a>
           </div>
