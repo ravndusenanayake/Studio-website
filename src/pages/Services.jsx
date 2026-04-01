@@ -18,7 +18,7 @@ const Services = () => {
             <div className="package-icon">
               <Video size={40} />
             </div>
-            <h2>Music Video Production</h2>
+            <h2>Original Music Videos</h2>
             <div className="price-tag">Starting from $1,500</div>
             <p className="package-desc">
               Full-scale cinematic music video production, from storyboard to final color grade. We capture the essence of your song.
@@ -37,7 +37,7 @@ const Services = () => {
             <div className="package-icon">
               <Music size={40} />
             </div>
-            <h2>Cover Video Songs</h2>
+            <h2>Cover Music Videos</h2>
             <div className="price-tag">Starting from $800</div>
             <p className="package-desc">
               High-quality studio recordings and dynamic performance videos for your cover songs. Perfect for YouTube and social media growth.

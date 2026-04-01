@@ -41,7 +41,7 @@ const Booking = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <h4>Email</h4>
-                <p>hello@luminastudio.com</p>
+                <p>hello@anstudio.com</p>
               </div>
               <div className="contact-item">
                 <h4>Phone</h4>

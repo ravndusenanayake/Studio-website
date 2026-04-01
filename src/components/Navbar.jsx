@@ -22,7 +22,7 @@ const Navbar = ({ toggleCart, cartCount }) => {
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
           <Camera size={24} className="logo-icon" />
-          <span>LuminaStudio</span>
+          <span>AN Studio</span>
         </Link>
 
         <nav className={`navbar-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>

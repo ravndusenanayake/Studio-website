@@ -15,7 +15,7 @@ const Home = () => {
             Bring Your <span className="text-highlight">Vision</span> To Life
           </h1>
           <p className="hero-subtitle">
-            LuminaStudio specializes in original music videos, breathtaking cover songs, and providing artists with premium guitars. Elevate your art to the next level.
+            AN Studio specializes in original music videos, breathtaking cover songs, and providing artists with premium guitars. Elevate your art to the next level.
           </p>
           <div className="hero-actions">
             <Link to="/services" className="btn btn-primary">

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className="footer-logo">
             <Camera size={28} className="logo-icon" />
-            <span>LuminaStudio</span>
+            <span>AN Studio</span>
           </div>
           <p className="footer-tagline">
             Elevating your sound and vision. Original music videos, creative covers, and premium gear for artists.
@@ -47,7 +47,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} LuminaStudio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AN Studio. All rights reserved.</p>
         </div>
       </div>
     </footer>

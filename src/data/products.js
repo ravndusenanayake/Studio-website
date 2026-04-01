@@ -1,7 +1,7 @@
 export const products = [
   {
     id: "g1",
-    name: "Lumina Studio Signature Series Auto-Tune",
+    name: "AN Studio Signature Series Auto-Tune",
     price: 3499.00,
     type: "Electric",
     description: "Our signature electric guitar built for producing studio-grade tones. Features advanced humbuckers and a sleek obsidian finish. Designed for artists who need reliability in the studio and presence on stage.",
