@@ -1,0 +1,184 @@
+.store-header {
+  background-color: #111;
+  padding: 8rem 0 4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.store-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.store-header p {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+}
+
+.store-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.search-box, .filter-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.search-box {
+  flex: 1;
+  max-width: 400px;
+}
+
+.search-icon, .filter-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--text-muted);
+}
+
+.search-box input, .filter-box select {
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 3rem;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.search-box input:focus, .filter-box select:focus {
+  outline: none;
+  background-color: rgba(255,255,255,0.02);
+}
+
+.filter-box select {
+  cursor: pointer;
+  appearance: none;
+  padding-right: 2rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.product-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+  border-color: rgba(255, 59, 48, 0.4);
+}
+
+.product-image-container {
+  display: block;
+  position: relative;
+  height: 350px;
+  background-color: #0d0d0d;
+  overflow: hidden;
+}
+
+.product-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.product-card:hover .product-image-container img {
+  transform: scale(1.05);
+}
+
+.product-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.product-overlay span {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transform: translateY(20px);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-overlay {
+  opacity: 1;
+}
+
+.product-card:hover .product-overlay span {
+  transform: translateY(0);
+}
+
+.product-info {
+  padding: 1.5rem;
+}
+
+.product-type {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.product-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  transition: color 0.2s;
+}
+
+.product-name:hover {
+  color: var(--accent-color);
+}
+
+.product-price {
+  font-size: 1.4rem;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.no-products {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.no-products h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.no-products p {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}

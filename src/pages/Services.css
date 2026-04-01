@@ -1,0 +1,132 @@
+.services-header {
+  background-color: #111;
+  padding: 8rem 0 4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.services-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.services-header p {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+}
+
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.service-packages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.package-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.package-card.highlight {
+  border-color: var(--accent-color);
+  transform: translateY(-10px);
+  box-shadow: 0 10px 40px rgba(255, 59, 48, 0.15);
+}
+
+.package-card.highlight::before {
+  content: 'Most Popular';
+  position: absolute;
+  top: 1rem;
+  right: -2rem;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 3rem;
+  transform: rotate(45deg);
+  text-transform: uppercase;
+}
+
+.package-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.package-card.highlight:hover {
+  transform: translateY(-15px);
+}
+
+.package-icon {
+  margin-bottom: 1.5rem;
+  color: var(--accent-color);
+}
+
+.package-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price-tag {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.package-desc {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.package-features {
+  list-style: none;
+  margin-bottom: 2.5rem;
+}
+
+.package-features li {
+  margin-bottom: 0.75rem;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.package-features li::before {
+  content: '✓';
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.package-btn {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .service-packages {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .package-card.highlight {
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-packages {
+    grid-template-columns: 1fr;
+  }
+}
