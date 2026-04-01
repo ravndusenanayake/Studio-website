@@ -20,7 +20,6 @@ const Services = () => {
             </div>
             <h2>Original Music Videos</h2>
             <div className="price-tag" style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-              <span style={{ fontSize: '1.2rem', color: 'var(--text-primary)' }}>Complete Music & Video Production</span>
               <span>Starting from RS 20 000</span>
             </div>
             <p className="package-desc">
