@@ -41,15 +41,15 @@ const Booking = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <h4>Email</h4>
-                <p>hello@anstudio.com</p>
+                <p>ravindusenanayake10@gmail.com</p>
               </div>
               <div className="contact-item">
                 <h4>Phone</h4>
-                <p>+1 (555) 123-4567</p>
+                <p>0701792908</p>
               </div>
               <div className="contact-item">
                 <h4>Studio</h4>
-                <p>123 Creative Avenue, Arts District, CA 90012</p>
+                <p>Warakapola, Kegalle</p>
               </div>
             </div>
           </div>
