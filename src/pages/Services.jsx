@@ -42,6 +42,7 @@ const Services = () => {
               <li>Advanced Editing & Color Grading</li>
             </ul>
             <a href={getWhatsAppLink('Original Music Videos')} target="_blank" rel="noopener noreferrer" className="btn btn-primary package-btn">Book Now</a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" className="btn btn-outline package-btn" style={{ marginTop: '10px' }}>Watch on Facebook</a>
           </div>
 
           <div className="package-card highlight">
@@ -61,6 +62,7 @@ const Services = () => {
               <li>Optimized Formats for YouTube & Social Media</li>
             </ul>
             <a href={getWhatsAppLink('Cover Music Videos')} target="_blank" rel="noopener noreferrer" className="btn btn-primary package-btn">Book Now</a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" className="btn btn-outline package-btn" style={{ marginTop: '10px' }}>Watch on Facebook</a>
           </div>
 
           <div className="package-card">
