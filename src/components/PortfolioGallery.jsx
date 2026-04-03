@@ -6,10 +6,10 @@ const PortfolioGallery = () => {
   const baseUrl = import.meta.env.BASE_URL;
 
   const images = [
-    { id: 1, src: `${baseUrl}images/birthday-1.jpg.jpg`, alt: 'Birthday Portrait 1', span: 'col-span-2 row-span-2' },
-    { id: 2, src: `${baseUrl}images/birthday-2.jpg.jpg`, alt: 'Birthday Portrait 2', span: 'col-span-1 row-span-1' },
-    { id: 3, src: `${baseUrl}images/birthday-3.jpg.jpg`, alt: 'Birthday Portrait 3', span: 'col-span-1 row-span-1' },
-    { id: 4, src: `${baseUrl}images/birthday-4.jpg.jpg`, alt: 'Birthday Portrait 4', span: 'col-span-2 row-span-1' },
+    { id: 1, src: `${baseUrl}images/birthday-1.jpg`, alt: 'Birthday Portrait 1', span: 'col-span-2 row-span-2' },
+    { id: 2, src: `${baseUrl}images/birthday-2.jpg`, alt: 'Birthday Portrait 2', span: 'col-span-1 row-span-1' },
+    { id: 3, src: `${baseUrl}images/birthday-3.jpg`, alt: 'Birthday Portrait 3', span: 'col-span-1 row-span-1' },
+    { id: 4, src: `${baseUrl}images/birthday-4.jpg`, alt: 'Birthday Portrait 4', span: 'col-span-2 row-span-1' },
   ];
 
   return (
