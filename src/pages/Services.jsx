@@ -58,17 +58,17 @@ const Services = () => {
             <div className="package-icon">
               <Camera size={40} />
             </div>
-            <h2>Live Session Recording</h2>
-            <div className="price-tag">Starting from $1,200</div>
+            <h2>Studio & Portrait Photography</h2>
+            <div className="price-tag">Starting from Rs. 2,500</div>
             <p className="package-desc">
-              Capture the raw energy of your live performance with multi-track audio recording and multi-camera video production.
+              High-quality studio photography to capture your best moments. Perfect for professional portraits, personal branding, and memorable birthday celebrations.
             </p>
             <ul className="package-features">
-              <li>Live venue or studio setup</li>
-              <li>Up to 16-channel audio</li>
-              <li>3-5 Camera angles</li>
-              <li>Live mix and master</li>
-              <li>Behind the scenes footage</li>
+              <li>5 Portrait Package with Advanced Retouching (Rs. 2,500)</li>
+              <li>Birthday Shoot & Studio Concepts (Starting from Rs. 5,000)</li>
+              <li>Expert Posing Guidance & Studio Lighting</li>
+              <li>High-Resolution Digital Delivery</li>
+              <li>Customizable Themes & Backdrops</li>
             </ul>
             <a href="/booking" className="btn btn-primary package-btn">Book Now</a>
           </div>
