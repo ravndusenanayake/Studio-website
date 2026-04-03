@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Play, Star } from 'lucide-react';
+import { ArrowRight, Play, Star, Youtube, Facebook } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -41,11 +41,27 @@ const Home = () => {
               <div className="feature-icon"><Play size={32} /></div>
               <h3>Original Music Videos</h3>
               <p>Top-tier production quality from conceptualization to the final edit, tailored uniquely for your sound.</p>
+              <div className="feature-actions" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <Youtube size={16} /> YouTube
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <Facebook size={16} /> Facebook
+                </a>
+              </div>
             </div>
             <div className="feature-card">
               <div className="feature-icon"><Star size={32} /></div>
               <h3>Cover Video Songs</h3>
               <p>Showcase your talent with stunning cover videos that capture your authentic performance and tone.</p>
+              <div className="feature-actions" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <Youtube size={16} /> YouTube
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <Facebook size={16} /> Facebook
+                </a>
+              </div>
             </div>
           </div>
         </div>
