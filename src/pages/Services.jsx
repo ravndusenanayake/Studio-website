@@ -3,6 +3,15 @@ import { Camera, Music, Video, Star } from 'lucide-react';
 import './Services.css';
 
 const Services = () => {
+  // Replace with your actual WhatsApp number (include country code, without '+' or '00')
+  // For example: '94771234567' for Sri Lanka
+  const whatsappNumber = '94701792908';
+
+  const getWhatsAppLink = (packageName) => {
+    const message = `Hi, I'm interested in booking the ${packageName} package.`;
+    return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  };
+
   return (
     <div className="page-container fade-in">
       <div className="services-header">
@@ -32,7 +41,7 @@ const Services = () => {
               <li>4K Cinematic Filming & Lighting</li>
               <li>Advanced Editing & Color Grading</li>
             </ul>
-            <a href="/booking" className="btn btn-primary package-btn">Book Now</a>
+            <a href={getWhatsAppLink('Original Music Videos')} target="_blank" rel="noopener noreferrer" className="btn btn-primary package-btn">Book Now</a>
           </div>
 
           <div className="package-card highlight">
@@ -51,7 +60,7 @@ const Services = () => {
               <li>Seamless Audio & Video Syncing</li>
               <li>Optimized Formats for YouTube & Social Media</li>
             </ul>
-            <a href="/booking" className="btn btn-primary package-btn">Book Now</a>
+            <a href={getWhatsAppLink('Cover Music Videos')} target="_blank" rel="noopener noreferrer" className="btn btn-primary package-btn">Book Now</a>
           </div>
 
           <div className="package-card">
@@ -70,7 +79,7 @@ const Services = () => {
               <li>High-Resolution Digital Delivery</li>
               <li>Customizable Themes & Backdrops</li>
             </ul>
-            <a href="/booking" className="btn btn-primary package-btn">Book Now</a>
+            <a href={getWhatsAppLink('Studio & Portrait Photography')} target="_blank" rel="noopener noreferrer" className="btn btn-primary package-btn">Book Now</a>
           </div>
         </div>
       </div>
