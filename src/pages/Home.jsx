@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Play, Star, Youtube, Facebook } from 'lucide-react';
+import { ArrowRight, Play, Star } from 'lucide-react';
 import PortfolioGallery from '../components/PortfolioGallery';
 import './Home.css';
 
@@ -44,10 +44,10 @@ const Home = () => {
               <p>Top-tier production quality from conceptualization to the final edit, tailored uniquely for your sound.</p>
               <div className="feature-actions" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                 <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <Youtube size={16} /> YouTube
+                  YouTube
                 </a>
                 <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <Facebook size={16} /> Facebook
+                  Facebook
                 </a>
               </div>
             </div>
@@ -57,10 +57,10 @@ const Home = () => {
               <p>Showcase your talent with stunning cover videos that capture your authentic performance and tone.</p>
               <div className="feature-actions" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                 <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <Youtube size={16} /> YouTube
+                  YouTube
                 </a>
                 <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <Facebook size={16} /> Facebook
+                  Facebook
                 </a>
               </div>
             </div>
