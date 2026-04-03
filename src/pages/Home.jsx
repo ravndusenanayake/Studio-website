@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Play, Star, Youtube, Facebook } from 'lucide-react';
+import PortfolioGallery from '../components/PortfolioGallery';
 import './Home.css';
 
 const Home = () => {
@@ -66,6 +67,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Photography Portfolio */}
+      <PortfolioGallery />
 
       {/* Store Teaser */}
       <section className="store-teaser">
